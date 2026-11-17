@@ -1,0 +1,8 @@
+# Allow CasC to create/update items cleanly
+removeStrategy:
+  rbac: SYNC
+  items: NONE
+items:
+  - kind: folder
+    name: "ml"
+    displayName: "ML Folder"
