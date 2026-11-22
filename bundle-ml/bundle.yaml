@@ -1,12 +1,9 @@
 apiVersion: "2"
 id: "bundle-ml"
-version: "2"
+version: "3"
 description: "CasC bundle for the payments team controller - demo baseline"
 jcasc:
   - "jenkins.yaml"
 plugins:
   - "plugins.yaml"
-items:
-  - "items.yaml"
-rbac:
-  - "rbac.yaml"
+
